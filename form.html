@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+ <style>
+
+    .lista{
+        color: RED;
+    }
+
+    .LISTA:before{
+       background-image: url(/mortal-kombat.jpg);
+    }
+
+
+
+ </style>
+
+
+</head>
+<body>
+    <h3>formulário de inscrição</h3>
+    <form>
+        <p>
+            <label for="nome">Nome:</label>
+            <input maxlength="35" type= "text" name="nome"
+            placeholder="Nome">
+        </p>
+        <p>
+            <label for="idade">Idade: </label>
+            <input type="number" placeholder="0" name= "idade"/>
+        </p>
+        <p>
+            <label for = "sexo">Sexo: </label>
+            <input type="radio" name = "sexo"> masculino
+            <input type= "radio" name = "sexo" checked = "checked"> fem
+            </p>
+            <p>
+            <label for="obs">observações:</label><br/>
+            <textarea rows="5" cols="10" name="obs"></textarea>
+        </p>
+        <p>
+        <label for = "data"-nascimento>Data de nascimento:</label>
+        <input type= "date" name="data-nascimento"/>
+        </p>
+        <p>
+            <label for="satisfação">satisfação ao usar nosso site:</label>
+            <input type="range" name="satisfacao" min="0" max="10">
+            </p>
+            <p>
+            <ul>
+                <li class="lista">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+
+
+
+
+
+    </body>
+</html>

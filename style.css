@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(233, 229, 10),rgb(128, 145, 34));
+}
+
+
+
+.formulario{
+    max-width: 30%;
+    border: solid black;
+    padding: 30px;
+    background-image: linear-gradient(to right, rgb(190, 168, 168),rgb(238, 10, 10));
+    height: 500px;
+    
+}
+
+
+
+.enviar{
+    overflow: hidden;
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(16, 59, 151),rgb(70, 63, 63));
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+
+.cabeca{
+    border: solid black;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgb(17, 17, 17),rgb(54, 5, 5));
+    color: wheat;
+}
+ .pai{
+     display: flex;
+     justify-content: space-around;
+     height: 300px;
+    
+ }
+
+ .img{
+     height: 600px;
+     width: 500px;
+ }
+
+ .final{
+     display: flex;
+     justify-content:unsafe;
+     flex-direction: row;
+ }
